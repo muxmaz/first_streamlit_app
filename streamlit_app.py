@@ -44,7 +44,7 @@ try:
     streamlit.dataframe(back_from_function)
   
 #DON'T RUN ANYTHING PAST HERE WHILE WE TROUBLESHOOT
-streamlit.stop()
+#streamlit.stop()
 
 streamlit.header("The fruit load list contains:")
 #Snowflake - related functions
