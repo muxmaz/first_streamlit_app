@@ -43,9 +43,6 @@ try:
     back_from_function = get_fruityvice_data (fruit_choice)
     streamlit.dataframe(back_from_function)
   
-#DON'T RUN ANYTHING PAST HERE WHILE WE TROUBLESHOOT
-#streamlit.stop()
-
 streamlit.header("The fruit load list contains:")
 #Snowflake - related functions
 def get_fruit_load_list ():
